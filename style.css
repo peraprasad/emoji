@@ -1,0 +1,70 @@
+body{
+  background-color: #ff9bca;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1{
+    text-align: center;
+}
+.emoji-face{
+    background-color: #F2DD68;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.eye1{
+    background-color: #000000;
+    width: 11px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.eye2{
+    background-color: #000000;
+    width: 11px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 70px;
+}
+.mouth {
+    background-color: #000000;
+    height: 29px;
+    width: 60px;
+    border-radius: 0 0 90px 90px;
+    position: absolute;
+    top: 55px;
+    left:20px;
+    overflow: hidden;
+    z-index: 1;
+}
+.tongue{
+    background-color: rgb(255, 0, 0);
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    border-radius: 40%;
+    top:15px;
+    left:12px;
+}
+.shocking-mouth{
+    background-color: #000000;
+    height: 30px;
+    width: 23px;
+    border-radius: 50%;
+    position:absolute;
+    top:52px;
+    left:40px;
+}
+.speechless-mouth{
+    background-color: #000000;
+    height: 5px;
+    width: 50px;
+    border-radius: 0%;
+    position:absolute;
+    top:70px;
+    left:26px;
+}
